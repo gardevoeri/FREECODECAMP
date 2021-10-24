@@ -186,13 +186,15 @@
     flex-direction: column;
     justify-content: center;
     height: 125px;
-    width: 80vw;
+    min-width: 80vw;
+    max-width: 80vw;
     padding: 5px;
+    
   }
   
   @media (max-width: 550px) {
     #features .desc {
-      width: 100%;
+      width: 80vw;
       text-align: center;
       padding: 0;
       height: 150px;
